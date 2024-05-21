@@ -5,9 +5,5 @@ class UserManagement {
     static getToken(req, res) {
         return res.send({ message: 'user' });
     }
-    // static getToken(req, res) {
-    //     return res.send({ message: 'user' });
-    // }
-
 }
 exports.UserManagement = UserManagement;
