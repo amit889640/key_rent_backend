@@ -28,10 +28,14 @@ All the route files
 Using the route in the app
  */
 app.get('/test', user_management_1.UserManagement.getToken);
+
+
 // app.use('/user', userRoute);
 // app.use('/user', userRoute);
 // app.use('/product', productRoute);
 /*
+
+
 Middleware to check any error
 */
 app.use((err, req, res, next) => {
