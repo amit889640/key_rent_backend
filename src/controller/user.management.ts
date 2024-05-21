@@ -1,4 +1,4 @@
-import { Request, Response } from "express-serve-static-core";
+import { Request, Response } from "express";
 
 export class UserManagement {
     public static getToken(req: Request, res: Response) {
